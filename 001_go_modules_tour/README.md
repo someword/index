@@ -673,7 +673,7 @@ $ quoteVersion=$(go list -m -f "{{.Version}}" rsc.io/quote)
 ```
 
 Exclusions only apply to builds of the current module. If the current module
-were required by a larger build, the exclusions would not apply.= For example,
+were required by a larger build, the exclusions would not apply. For example,
 an exclusion in rsc.io/quote's go.mod will not apply to our “hello, world”
 build. This policy balances giving the authors of the current module almost
 arbitrary control over their own build, without also subjecting them to almost
